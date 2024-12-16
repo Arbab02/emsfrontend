@@ -1,4 +1,4 @@
-const BASE_URL = 'http://localhost:8080';
+const BASE_URL = 'https://ems-eight-mu.vercel.app';
 
 export const GetAllEmployees = async (search = '', page = 1, limit = 5) => {
     const url =
